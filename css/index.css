@@ -1,0 +1,36 @@
+header {
+    background-image: url(../assets/banner_with_low_poly_design_2305.jpg);
+    background-position: 20% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .header-image {
+        max-height: 75vh;
+        max-width: 90vw;
+    }
+}
+/* Mobile Landscape */
+@media screen and (max-width: 991px) and (orientation: landscape) {
+
+}
+/* Tablet Portrait */
+@media screen and (min-width: 768px) and (orientation: portrait) {
+
+}
+/* Tablet Landscape */
+@media screen and (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+    
+}
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    header {
+        height: 75vh;
+    }
+
+    .header-image {
+        max-height: 50vh;
+    }
+}
