@@ -14,15 +14,24 @@ header {
 }
 /* Mobile Landscape */
 @media screen and (max-width: 991px) and (orientation: landscape) {
-
+    .header-image {
+        max-height: 75vh;
+        max-width: 90vw;
+    }
 }
 /* Tablet Portrait */
 @media screen and (min-width: 768px) and (orientation: portrait) {
-
+    .header-image {
+        max-height: 33vh;
+        max-width: 90vw;
+    }
 }
 /* Tablet Landscape */
 @media screen and (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
-    
+    .header-image {
+        max-height: 33vh;
+        max-width: 90vw;
+    }
 }
 /* Desktop */
 @media screen and (min-width: 1200px) {
