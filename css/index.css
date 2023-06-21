@@ -5,6 +5,10 @@ header {
     background-size: cover;
 }
 
+div.card-body > ul > li {
+    margin-bottom: 1rem;
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) and (orientation: portrait) {
     .header-image {
