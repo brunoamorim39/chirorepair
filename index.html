@@ -128,20 +128,20 @@
                                     <div class="mb-4">
                                        Reach out to me and we will coordinate on what kind of service is required as well as arrange shipping and invoicing.
                                     </div>
-                                    <form class="col-lg-9 col my-3 mx-auto" action="https://formspree.io/f/xeqwyyvp" method="POST">
+                                    <form class="col-lg-9 col my-3 mx-auto" action="https://formspree.io/f/xeqwyyvp" method="POST" onsubmit="setRedirectUrl()">
                                         <div class="d-flex flex-wrap justify-content-between">
                                             <div class="col-md-6 col-12 my-md-1 my-3 pe-md-3">
                                                 <label class="form-label">
                                                     First name:
                                                 </label>
-                                                <input class="form-control" type="text" name="First name" placeholder="First name" aria-label="First name">
+                                                <input class="form-control" type="text" name="First name" placeholder="First name" aria-label="First name" required>
                                             </div>
 
                                             <div class="col-md-6 col-12 my-md-1 my-3 ps-md-3">
                                                 <label class="form-label">
                                                     Last name:
                                                 </label>
-                                                <input class="form-control" type="text" name="Last name" placeholder="Last name" aria-label="Last name">
+                                                <input class="form-control" type="text" name="Last name" placeholder="Last name" aria-label="Last name" required>
                                             </div>
                                         </div>
 
@@ -150,14 +150,14 @@
                                                 <label class="form-label">
                                                     Email:
                                                 </label>
-                                                <input class="form-control" type="email" name="Email" placeholder="example@example.com" aria-label="Email">
+                                                <input class="form-control" type="email" name="Email" placeholder="example@example.com" aria-label="Email" required>
                                             </div>
 
                                             <div class="col-md-6 col-12 my-md-1 my-3 ps-md-3">
                                                 <label class="form-label">
                                                     Phone number:
                                                 </label>
-                                                <input class="form-control" type="tel" name="Phone number" placeholder="(XXX) XXX-XXXX" aria-label="Phone number">
+                                                <input class="form-control" type="tel" name="Phone number" placeholder="(XXX) XXX-XXXX" aria-label="Phone number" required>
                                             </div>
                                         </div>
 
@@ -165,7 +165,7 @@
                                             <label class="form-label">
                                                 Message:
                                             </label>
-                                            <textarea class="form-control" name="Message" placeholder="My Activator V doesn't apply as much force as is expected!" aria-label="Message" rows="3"></textarea>
+                                            <textarea class="form-control" name="Message" placeholder="My Activator V doesn't apply as much force as is expected!" aria-label="Message" rows="3" required></textarea>
                                         </div>
 
                                         <div class="col-6 mx-auto">
