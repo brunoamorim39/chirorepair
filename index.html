@@ -39,6 +39,15 @@
             !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_eag599w6j', {"optOut":false,"useDecimalCurrencyValues":true,"aaid":"<AAID-HERE>","email":"<EMAIL-HERE>","externalId":"<EXTERNAL-ID-HERE>","idfa":"<IDFA-HERE>"});rdt('track', 'PageVisit');
         </script>
         <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"343068623", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LfBbMcnAAAAABZWU3gG-rAcpHhhbdeKrIJUvJkB"></script>
+        <script>
+            grecaptcha.ready(function () {
+                grecaptcha.execute('6LfBbMcnAAAAABZWU3gG-rAcpHhhbdeKrIJUvJkB', {action: 'submit'}).then(function (token) {
+                    console.info("got token: " + token);
+                    document.getElementById('g-recaptcha-response').value = token;
+                });
+            });
+        </script>
     </head>
     <body>
         <section class="hero bg-secondary text-white text-center py-5">
@@ -88,8 +97,8 @@
                                     <textarea class="form-control" name="Message" placeholder="My Activator V seems to have gotten weaker over time." aria-label="Message" rows="3" required></textarea>
                                 </div>
 
-                                <input id="gotcha" type="text" name="_gotcha">
-                                <div class="g-recaptcha-response" data-sitekey="6LeGYMcnAAAAAPHgKzSjECQXtDXYka3PlWIZ-3Dr"></div>
+                                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                                
                                 <div class="col-6 mx-auto">
                                     <button class="btn btn-primary my-3 w-100" type="submit">
                                         Submit form
