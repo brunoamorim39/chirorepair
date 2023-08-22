@@ -9,6 +9,10 @@ div.card-body > ul > li {
     margin-bottom: 1rem;
 }
 
+#gotcha {
+    display: none;
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) and (orientation: portrait) {
     .header-image {
