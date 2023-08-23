@@ -5,6 +5,10 @@ header {
     background-size: cover;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 div.card-body > ul > li {
     margin-bottom: 1rem;
 }
