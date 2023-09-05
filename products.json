@@ -1,0 +1,30 @@
+{
+    "activator2": {
+        "name": "Activator II",
+        "image": "771-0014_01_o_p.jpg"
+    },
+    "activator4": {
+        "name": "Activator IV",
+        "image": "7710016L1.jpg"
+    },
+    "activator5": {
+        "name": "Activator V",
+        "image": "750x750_activator_v.jpg"
+    },
+    "integrator": {
+        "name": "Integrator",
+        "image": "Torque-Release-Integrator.jpg"
+    },
+    "theoriginalcat": {
+        "name": "The Original CAT",
+        "image": "cat-original.png"
+    },
+    "catex": {
+        "name": "CAT EX",
+        "image": "cat-ex.png"
+    },
+    "catproselect": {
+        "name": "CAT Pro Select",
+        "image": "cat-pro-select.png"
+    }
+}
