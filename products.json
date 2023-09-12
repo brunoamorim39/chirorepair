@@ -1,7 +1,11 @@
 {
+    "activator1": {
+        "name": "Activator I",
+        "image": "activator-methods-activator-1.png"
+    },
     "activator2": {
         "name": "Activator II",
-        "image": "771-0014_01_o_p.jpg"
+        "image": "771-0014_01_o_p.png"
     },
     "activator4": {
         "name": "Activator IV",
@@ -13,7 +17,7 @@
     },
     "integrator": {
         "name": "Integrator",
-        "image": "Torque-Release-Integrator.jpg"
+        "image": "Torque-Release-Integrator.png"
     },
     "theoriginalcat": {
         "name": "The Original CAT",
