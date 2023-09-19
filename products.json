@@ -1,34 +1,57 @@
 {
-    "activator1": {
-        "name": "Activator I",
-        "image": "activator-methods-activator-1.png"
+    "adjusting_instrument": {
+        "splash_image": "P1020741-1.webp",
+        "products": {
+            "activator_1": {
+                "name": "Activator I",
+                "image": "activator-methods-activator-1.png"
+            },
+            "activator_2": {
+                "name": "Activator II",
+                "image": "771-0014_01_o_p.png"
+            },
+            "activator_4": {
+                "name": "Activator IV",
+                "image": "7710016L1.jpg"
+            },
+            "activator_5": {
+                "name": "Activator V",
+                "image": "750x750_activator_v.jpg"
+            },
+            "integrator": {
+                "name": "Integrator",
+                "image": "Torque-Release-Integrator.png"
+            },
+            "the_original_cat": {
+                "name": "The Original CAT",
+                "image": "cat-original.png"
+            },
+            "cat_ex": {
+                "name": "CAT EX",
+                "image": "cat-ex.png"
+            },
+            "cat_pro_select": {
+                "name": "CAT Pro Select",
+                "image": "cat-pro-select.png"
+            }
+        }
     },
-    "activator2": {
-        "name": "Activator II",
-        "image": "771-0014_01_o_p.png"
+    "cold_laser": {
+        "splash_image": "laser-therapy-0305-1280x500-1.jpg",
+        "products": {
+            "vectra_genisys_transport_laser": {
+                "name": "Vectra Genisys Transport Laser",
+                "image": "API_2784_chatt_us_feb_vectra_genisys_transport_laser_2784_0.jpeg"
+            }
+        }
     },
-    "activator4": {
-        "name": "Activator IV",
-        "image": "7710016L1.jpg"
-    },
-    "activator5": {
-        "name": "Activator V",
-        "image": "750x750_activator_v.jpg"
-    },
-    "integrator": {
-        "name": "Integrator",
-        "image": "Torque-Release-Integrator.png"
-    },
-    "theoriginalcat": {
-        "name": "The Original CAT",
-        "image": "cat-original.png"
-    },
-    "catex": {
-        "name": "CAT EX",
-        "image": "cat-ex.png"
-    },
-    "catproselect": {
-        "name": "CAT Pro Select",
-        "image": "cat-pro-select.png"
+    "ultrasound": {
+        "splash_image": "ultrasound-in-physical-therapy-therapist-using-TJ7SG9Z-1024x682.jpg",
+        "products": {
+            "intelect_transport_ultrasound": {
+                "name": "Inelect Transport Ultrasound",
+                "image": "API_2782_chatt_us_feb_2782K_intelect_transport_ultrasound_white_lowresjpg_1eie3rb.jpg"
+            }
+        }
     }
 }
