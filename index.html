@@ -57,45 +57,43 @@
         </script>
     </head>
     <body>
-        <header class="p-3 bg-dark text-white">
+        <header class="p-3 bg-secondary bg-opacity-50 text-white">
             <div class="container">
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                        <img src="./assets/chirorepair_logo2-transparent.png">
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <a class="col-lg-3 col-5 d-flex align-items-center justify-content-center text-white text-decoration-none" href="/">
+                        <img class="w-50" src="./assets/chirorepair_logo2-transparent.png">
                     </a>
-        
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                  <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                </ul>
-        
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                  <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-                </form>
-        
-                <div class="text-end">
-                  <button type="button" class="btn btn-outline-light me-2">Login</button>
-                  <button type="button" class="btn btn-warning">Sign-up</button>
                 </div>
-              </div>
+                <div class="col text-dark text-center">
+                    <h1 class="display-4 fw-semibold">Chiropractic Equipment Repair</h1>
+                    <p class="lead">Restore the performance of your equipment with our expert repair services</p>
+                </div>
+                <ul class="col list-unstyled d-flex justify-content-center">
+                    <li class="mx-3"><a class="btn btn-primary" href="#why-chirorepair">Why choose ChiroRepair?</a></li>
+                    <li class="mx-3"><a class="btn btn-primary" href="#testimonials">What our clients say</a></li>
+                    <li class="mx-3"><a class="btn btn-primary" href="#what-we-work-on">What we work on</a></li>
+                    <li class="mx-3"><a class="btn btn-primary" href="#order-form">Order a repair</a></li>
+                </ul>
             </div>
-          </header>
+        </header>
 
-        <section class="bg-secondary text-white text-center py-5">
-            <div class="container">
-                <h1 class="display-4 fw-semibold">ChiroRepairChiropractic instrument repair</h1>
-                <p class="lead">Restore the performance of your chiropractic instruments with our expert repair services</p>
+        <section class="py-3 mt-3">
+            <div id="splash-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block header-image card mx-auto mt-3" src="./assets/P1020741-1.webp" alt="Adjusting device being used on a woman.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block header-image card mx-auto mt-3" src="./assets/laser-therapy-0305-1280x500-1.jpg" alt="Cold laser therapy.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block header-image card mx-auto mt-3" src="./assets/ultrasound-in-physical-therapy-therapist-using-TJ7SG9Z-1024x682.jpg" alt="Ultrasound being taken of a woman's back.">
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="py-3 mt-5">
-            <div id="splash-image" class="d-flex justify-content-center flex-wrap"></div>
-        </section>
-
-        <section class="py-3 mt-5">
+        <section class="py-3 mt-3">
             <div class="container">
                 <h2 id="why-chirorepair" class="text-center mb-4">Why choose ChiroRepair?</h2>
                 <div class="row">
@@ -163,7 +161,7 @@
             </div>
         </section>
 
-        <section class="py-3 mt-5">
+        <section class="py-3 mt-3">
             <div class="container">
                 <h2 id="what-we-work-on" class="text-center mb-4">What we work on</h2>
                 <div id="products-container" class="row mt-5"></div>
@@ -171,7 +169,7 @@
             </div>
         </section>
 
-        <section class="py-3 mt-5">
+        <section class="py-3 mt-3">
             <div class="container">
                 <h2 id="contact-us" class="text-center mb-4">Request a quote</h2>
                 <div class="row justify-content-center">

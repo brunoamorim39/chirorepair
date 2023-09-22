@@ -8,6 +8,13 @@ let setRedirectUrl = function() {
     window.location.replace = '/submitted'
 }
 
+var splashCarousel = document.getElementById('splash-carousel');
+var carousel = new bootstrap.Carousel(splashCarousel, {
+    interval: 7500,
+    wrap: true,
+    pause: false
+});
+
 window.onload = function() {
     fetch('./products.json').then(function(response) {
         response.json().then(function(products) {
@@ -17,9 +24,6 @@ window.onload = function() {
             let productsContainer = document.getElementById('products-container');
 
             if (products[productType]) {
-                let splashHTML = `<img class="header-image card mx-3 mt-3" src="./assets/${products[productType]['splash_image']}">`;
-                splashContainer.innerHTML += splashHTML;
-                
                 for (product in products[productType]['products']) {
                     let productHTML = `
                         <div class="col-md-3 col-6 px-5 mb-4">
@@ -30,9 +34,6 @@ window.onload = function() {
                     productsContainer.innerHTML += productHTML;
                 }
             } else {
-                let splashHTML = `<img class="header-image card mx-3 mt-3" src="./assets/P1020741-1.webp">`;
-                splashContainer.innerHTML += splashHTML;
-                
                 for (product in products['adjustment_tool']['products']) {
                     let productHTML = `
                         <div class="col-md-3 col-6 px-5 mb-4">
