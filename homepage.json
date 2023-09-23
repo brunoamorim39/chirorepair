@@ -1,0 +1,94 @@
+{
+    "our_values": [
+        {
+            "name": "Focus on excellence",
+            "description": "Our engineering background allows us to make improvements where manufacturers cut corners, ensuring reliable and longer lasting fixes."
+        },
+        {
+            "name": "Quality repairs",
+            "description": "Our expectation is to deliver high-quality repairs that exceed manufacturer quality, significantly extending the lifespan of your instruments."
+        },
+        {
+            "name": "Unmatched communication",
+            "description": "Nobody likes to be left in the dark. Our priority is to make sure that you are kept up to date with realtime information about the progress of your repairs."
+        },
+        {
+            "name": "Fast turnaround",
+            "description": "Our efficient repair process ensures quick turnaround times, minimizing downtime for your practice and allowing you to focus on patient care."
+        },
+        {
+            "name": "Affordable pricing",
+            "description": "We offer competitively priced repair services without compromising on quality, providing cost-effective solutions for your practice."
+        },
+        {
+            "name": "Satisfaction guaranteed",
+            "description": "If you feel we didn't do a good job, then we ask that you please reach out to us, and we will do what it takes to make things right."
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "",
+            "message": ""
+        }
+    ],
+    "products": [
+        {
+            "id": "adjustment_tools",
+            "name": "Adjustment Tools",
+            "products": {
+                "activator_1": {
+                    "name": "Activator I",
+                    "image": "activator-methods-activator-1.png"
+                },
+                "activator_2": {
+                    "name": "Activator II",
+                    "image": "771-0014_01_o_p.png"
+                },
+                "activator_4": {
+                    "name": "Activator IV",
+                    "image": "7710016L1.jpg"
+                },
+                "activator_5": {
+                    "name": "Activator V",
+                    "image": "750x750_activator_v.jpg"
+                },
+                "integrator": {
+                    "name": "Integrator",
+                    "image": "Torque-Release-Integrator.png"
+                },
+                "the_original_cat": {
+                    "name": "The Original CAT",
+                    "image": "cat-original.png"
+                },
+                "cat_ex": {
+                    "name": "CAT EX",
+                    "image": "cat-ex.png"
+                },
+                "cat_pro_select": {
+                    "name": "CAT Pro Select",
+                    "image": "cat-pro-select.png"
+                }
+            }
+        },
+        {
+            "id": "cold_laser",
+            "name": "Cold Laser",
+            "products": {
+                "vectra_genisys_transport_laser": {
+                    "name": "Vectra Genisys Transport Laser",
+                    "image": "API_2784_chatt_us_feb_vectra_genisys_transport_laser_2784_0.jpeg"
+                }
+            }
+        },
+        {
+            "id": "ultrasound",
+            "name": "Ultrasound",
+            "products": {
+                "intelect_transport_ultrasound": {
+                    "name": "Inelect Transport Ultrasound",
+                    "image": "API_2782_chatt_us_feb_2782K_intelect_transport_ultrasound_white_lowresjpg_1eie3rb.jpg"
+                }
+            }
+        }
+    ]
+}
