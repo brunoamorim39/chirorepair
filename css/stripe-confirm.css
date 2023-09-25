@@ -1,0 +1,52 @@
+body {
+    scroll-behavior: smooth;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .confirm-image {
+        width: 100%;
+    }
+
+    footer {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+    }
+}
+/* Mobile Landscape */
+@media screen and (max-width: 991px) and (orientation: landscape) {
+    .confirm-image {
+        width: 50%;
+    }
+}
+/* Tablet Portrait */
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .confirm-image {
+        width: 100%;
+    }
+
+    footer {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+    }
+}
+/* Tablet Landscape */
+@media screen and (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+    .confirm-image {
+        width: 50%;
+    }
+
+    footer {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    .confirm-image {
+        width: 35%;
+    }
+}
