@@ -1,5 +1,16 @@
 body {
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
 }
 
 /* Mobile */
@@ -8,16 +19,18 @@ body {
         width: 100%;
     }
 
-    footer {
-        position: absolute;
-        width: 100vw;
-        bottom: 0;
+    .shipping-info {
+        width: 100%;
     }
 }
 /* Mobile Landscape */
 @media screen and (max-width: 991px) and (orientation: landscape) {
     .confirm-image {
         width: 50%;
+    }
+
+    .shipping-info {
+        width: 75%;
     }
 }
 /* Tablet Portrait */
@@ -26,10 +39,8 @@ body {
         width: 100%;
     }
 
-    footer {
-        position: absolute;
-        width: 100vw;
-        bottom: 0;
+    .shipping-info {
+        width: 75%;
     }
 }
 /* Tablet Landscape */
@@ -38,15 +49,17 @@ body {
         width: 50%;
     }
 
-    footer {
-        position: absolute;
-        width: 100vw;
-        bottom: 0;
+    .shipping-info {
+        width: 75%;
     }
 }
 /* Desktop */
 @media screen and (min-width: 1200px) {
     .confirm-image {
         width: 35%;
+    }
+
+    .shipping-info {
+        width: 50%;
     }
 }

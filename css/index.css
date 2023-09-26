@@ -10,6 +10,10 @@ div.card-body > ul > li {
     display: none;
 }
 
+.quantity-input, .order-button {
+    width: 10%;
+}
+
 /* Mobile */
 @media screen and (max-width: 767px) and (orientation: portrait) {
     .header-image {

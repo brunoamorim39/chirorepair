@@ -40,7 +40,17 @@ window.onload = function() {
             // Testimonials section
             let testimonialsContainer = document.getElementById('testimonials-container');
 
-            
+            for (let testimonial in homepage_json['testimonials']) {
+                let testimonialHTML = `
+                    <div class="col-md-6 col d-flex my-3">
+                        <div class="card bg-success bg-opacity-25 w-100 px-4 py-3">
+                            <div class="fs-5">${homepage_json['testimonials'][testimonial]['message']}</div>
+                            <div class="text-end fw-semibold fs-5 mt-auto">- ${homepage_json['testimonials'][testimonial]['name']}</div>
+                        </div>
+                    </div>
+                `;
+                testimonialsContainer.innerHTML += testimonialHTML;
+            }
 
             // Products section
             let productsContainer = document.getElementById('products-container');
@@ -84,6 +94,23 @@ window.onload = function() {
             document.getElementById('products-tabs').childNodes[1].childNodes[1].classList.add('active');
             productsContainer.innerHTML += tabsContentHTML;
             document.getElementById('products-tabs-content').childNodes[1].classList.add('show', 'active');
-        })
+
+            // Order form section
+            // let orderFormContainer = document.getElementById('order-form-container');
+
+            // for (let productType in homepage_json['products']) {
+            //     for (let product in homepage_json['products'][productType]['products']) {
+            //         orderHTML = `
+            //             <div class="col-md-6 col d-flex my-3">
+            //                 <div class="flex-grow-1 fs-6">${homepage_json['products'][productType]['products'][product]['name']} Repair</div>
+            //                 <div class="fs-6">($${homepage_json['products'][productType]['products'][product]['price']})</div>
+            //                 <div class="quantity-input mx-2"><input class="form-control" type="number" value="0"></div>
+            //                 <button class="order-button btn btn-primary" data-price-id="${homepage_json['products'][productType]['products'][product]['price_id']}">Order</button>
+            //             </div>
+            //         `;
+            //         orderFormContainer.innerHTML += orderHTML;
+            //     };
+            // };
+        });
     });
 }
