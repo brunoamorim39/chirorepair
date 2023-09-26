@@ -1,0 +1,65 @@
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .confirm-image {
+        width: 100%;
+    }
+
+    .shipping-info {
+        width: 100%;
+    }
+}
+/* Mobile Landscape */
+@media screen and (max-width: 991px) and (orientation: landscape) {
+    .confirm-image {
+        width: 50%;
+    }
+
+    .shipping-info {
+        width: 75%;
+    }
+}
+/* Tablet Portrait */
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .confirm-image {
+        width: 100%;
+    }
+
+    .shipping-info {
+        width: 75%;
+    }
+}
+/* Tablet Landscape */
+@media screen and (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+    .confirm-image {
+        width: 50%;
+    }
+
+    .shipping-info {
+        width: 75%;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    .confirm-image {
+        width: 35%;
+    }
+
+    .shipping-info {
+        width: 50%;
+    }
+}

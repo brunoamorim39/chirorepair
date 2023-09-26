@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>ChiroRepair - Chiropractic instrument repair services</title>
-        <meta name="description" content="Servicing and repairing all Activator and other chiropractic equipment! We restore and breathe new life into old and/or non-functional chiropractic equipment." />
+        <title>ChiroRepair | Chiropractic equipment repair</title>
+        <meta name="description" content="Servicing a variety of chiropractic equipment, including but not limited to, adjusting tools, tables, cold lasers, and ultrasound equipment." />
         <meta property="og:title" content="Activator maintenance and repair" />
-        <meta property="og:description" content="Servicing and repairing all Activator and other chiropractic equipment! We restore and breathe new life into old and/or non-functional chiropractic equipment." />
+        <meta property="og:description" content="Servicing a variety of chiropractic equipment, including but not limited to, adjusting tools, tables, cold lasers, and ultrasound equipment." />
         <meta property="og:url" content="https://chiro.repair" />
         <meta property="og:image" content="http:///chiro.repair/assets/apple-touch-icon.png" />
         <meta property="og:image:secure_url" content="https://chiro.repair/assets/apple-touch-icon.png" />
@@ -55,131 +55,103 @@
                 });
             });
         </script>
+
+        <!-- Stripe.js -->
+        <script src="https://js.stripe.com/v3/"></script>
     </head>
     <body>
-        <section class="hero bg-secondary text-white text-center py-5">
+        <header class="p-3 bg-secondary bg-opacity-50 text-white">
             <div class="container">
-                <h1 class="display-4 fw-semibold">Chiropractic instrument repair</h1>
-                <p class="lead">Restore the performance of your chiropractic instruments with our expert repair services</p>
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <a class="col-lg-3 col-5 d-flex align-items-center justify-content-center text-white text-decoration-none" href="/">
+                        <img class="w-50" src="./assets/chirorepair_logo2-transparent.png">
+                    </a>
+                </div>
+                <div class="col text-dark text-center">
+                    <h1 class="display-4 fw-semibold">Chiropractic Equipment Repair</h1>
+                    <p class="lead">Restore the performance of your equipment with our expert repair services</p>
+                </div>
+                <ul class="col list-unstyled d-flex justify-content-center">
+                    <li class="mx-3"><a class="btn btn-primary fs-5 mt-3 px-5" href="#contact-us">Request a quote</a></li>
+                </ul>
             </div>
-        </section>
+        </header>
 
-        <section class="py-3 mt-5">
-            <div id="splash-image" class="d-flex justify-content-center flex-wrap"></div>
-        </section>
-
-        <section class="py-3 mt-5">
-            <div class="container">
-                <h2 id="why-chirorepair" class="text-center mb-4">Why choose ChiroRepair?</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-header bg-dark">
-                                <h5 class="card-title text-light">Focus on excellence</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Our engineering background allows us to make improvements where manufacturers cut corners, ensuring reliable and longer lasting fixes.</p>
-                            </div>
-                        </div>
+        <section class="py-3 mt-3">
+            <div id="splash-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block header-image card mx-auto mt-3" src="./assets/P1020741-1.webp" alt="Adjusting device being used on a woman.">
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-header bg-dark">
-                                <h5 class="card-title text-light">Quality repairs</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Our expectation is to deliver high-quality repairs that exceed manufacturer quality, significantly extending the lifespan of your instruments.</p>
-                            </div>
-                        </div>
+                    <div class="carousel-item">
+                        <img class="d-block header-image card mx-auto mt-3" src="./assets/laser-therapy-0305-1280x500-1.jpg" alt="Cold laser therapy.">
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-header bg-dark">
-                                <h5 class="card-title text-light">Unmatched communication</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Nobody likes to be left in the dark. Our priority is to make sure that you are kept up to date with realtime information about the progress of your repairs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-header bg-dark">
-                                <h5 class="card-title text-light">Fast turnaround</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Our efficient repair process ensures quick turnaround times, minimizing downtime for your practice and allowing you to focus on patient care.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-header bg-dark">
-                                <h5 class="card-title text-light">Affordable pricing</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">We offer competitively priced repair services without compromising on quality, providing cost-effective solutions for your practice.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-header bg-dark">
-                                <h5 class="card-title text-light">Satisfaction guaranteed</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">If you feel we didn't do a good job, then we ask that you please reach out to us, and we will do what it takes to make things right.</p>
-                            </div>
-                        </div>
+                    <div class="carousel-item">
+                        <img class="d-block header-image card mx-auto mt-3" src="./assets/ultrasound-in-physical-therapy-therapist-using-TJ7SG9Z-1024x682.jpg" alt="Ultrasound being taken of a woman's back.">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-3 mt-5">
+        <section class="py-3 mt-3">
             <div class="container">
-                <h2 id="what-we-work-on" class="text-center mb-4">What we work on</h2>
-                <div id="products-container" class="row mt-5"></div>
-                <h4 class="text-center mt-3">Don't see your equipment on here? Let us know what you have, either via the form below or by sending us an email at <a href="mailto:contact@chiro.repair">contact@chiro.repair</a>. We can probably figure out a solution for you.</h4>
+                <h2 id="why-chirorepair" class="text-center mb-4">Why choose ChiroRepair?</h2>
+                <div id="our_values-container" class="row"></div>
             </div>
         </section>
 
-        <section class="py-3 mt-5">
+        <section class="py-3 mt-3">
+            <div class="container">
+                <h2 id="testimonials" class="text-center mb-4">What our clients say</h2>
+                <div id="testimonials-container" class="row mt-5"></div>
+            </div>
+        </section>
+
+        <section class="py-3 mt-3">
+            <div class="container">
+                <h2 id="what-we-work-on" class="text-center mb-4">What we work on</h2>
+                <div id="products-container" class="row mt-5"></div>
+                <h4 class="text-center mt-3">Don't see your equipment on here? Let us know what you have by sending us an email at <a href="mailto:contact@chiro.repair">contact@chiro.repair</a> and we will see if we can come up with a solution.</h4>
+            </div>
+        </section>
+
+        <!-- <section class="py-3 mt-3">
+            <div class="container">
+                <h2 id="order-form" class="text-center mb-4">Order a repair</h2>
+                <div id="order-form-container" class="row d-flex flex-wrap mt-5"></div>
+            </div>
+        </section> -->
+
+        <section class="py-3 mt-3">
             <div class="container">
                 <h2 id="contact-us" class="text-center mb-4">Request a quote</h2>
                 <div class="row justify-content-center">
                     <div class="col-md-6">
                         <div class="fs-6">Fill out the form below and we will get back to you via email as soon as we receive your form submission. Typical response time is within an hour or two.</div>
                         <br>
-                        <div class="fs-6"><strong>Note:</strong> Sometimes our response emails end up in the spam folder, so please look out for it in there if you don't receive anything in your inbox.</div>
+                        <div class="fs-6"><strong>Note:</strong> Sometimes our response emails end up in the spam folder, so please look out for it in there if you don't receive anything in your inbox within a few hours.</div>
                         <div class="fs-5">
                             <form class="my-3 mx-auto" action="https://formspree.io/f/xeqwyyvp" method="POST" onsubmit="setRedirectUrl()">
-                                <div class="col-12 my-md-1 my-3">
-                                    <label class="form-label">
+                                <div class="col my-3">
+                                    <label class="form-label fw-semibold">
                                         Name:
                                     </label>
                                     <input class="form-control" type="text" name="Name" placeholder="Name" aria-label="Name" required>
                                 </div>
-                                <div class="col-12 my-md-1 my-3">
-                                    <label class="form-label">
+                                <div class="col my-3">
+                                    <label class="form-label fw-semibold">
                                         Email:
                                     </label>
                                     <input class="form-control" type="email" name="Email" placeholder="example@example.com" aria-label="Email" required>
                                 </div>
-                                <div class="col-12 my-md-1 my-3">
-                                    <label class="form-label">
-                                        Phone number:
-                                    </label>
-                                    <input class="form-control" type="tel" name="Phone number" placeholder="(XXX) XXX-XXXX" aria-label="Phone number" required>
-                                </div>
-                                <div class="col-12 my-md-1 my-3">
-                                    <label class="form-label">
+                                <div class="col my-3">
+                                    <label class="form-label fw-semibold">
                                         Instrument:
                                     </label>
                                     <input class="form-control" type="text" name="Instrument" placeholder="Instrument name" aria-label="Instrument" required>
                                 </div>
-                                <div class="col-12 my-md-1 my-3">
-                                    <label class="form-label">
+                                <div class="col my-3">
+                                    <label class="form-label fw-semibold">
                                         Message:
                                     </label>
                                     <textarea class="form-control" name="Message" placeholder="Quick description of the issue you are experiencing." aria-label="Message" rows="3" required></textarea>
@@ -212,5 +184,6 @@
 
         <!-- Custom JS -->
         <script src="js/index.js"></script>
+        <script src="js/stripe.js"></script>
     </body>
 </html>

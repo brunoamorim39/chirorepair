@@ -1,0 +1,134 @@
+{
+    "our_values": [
+        {
+            "name": "Focus on excellence",
+            "description": "Our engineering background allows us to make improvements where manufacturers cut corners, ensuring reliable and longer lasting fixes."
+        },
+        {
+            "name": "Quality repairs",
+            "description": "Our expectation is to deliver high-quality repairs that exceed manufacturer quality, significantly extending the lifespan of your instruments."
+        },
+        {
+            "name": "Unmatched communication",
+            "description": "Nobody likes to be left in the dark. Our priority is to make sure that you are kept up to date with realtime information about the progress of your repairs."
+        },
+        {
+            "name": "Fast turnaround",
+            "description": "Our efficient repair process ensures quick turnaround times, minimizing downtime for your practice and allowing you to focus on patient care."
+        },
+        {
+            "name": "Affordable pricing",
+            "description": "We offer competitively priced repair services without compromising on quality, providing cost-effective solutions for your practice."
+        },
+        {
+            "name": "Satisfaction guaranteed",
+            "description": "If you feel we didn't do a good job, then we ask that you please reach out to us, and we will do what it takes to make things right."
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Dr. M",
+            "message": "We needed two Activators fixed ASAP, and ChiroRepair was able to deliver with a very quick turnaround and help us keep our practice running."
+        },
+        {
+            "name": "Dr. K",
+            "message": "I was going to throw away a handful of old and broken Activators that we had, but ChiroRepair was able to restore them and save us money on purchasing new equipment."
+        },
+        {
+            "name": "Dr. F",
+            "message": "ChiroRepair has been a reliable partner in our practice's success. Their expertise in repairing and maintaining our equipment has allowed us to focus on patient care."
+        },
+        {
+            "name": "Dr. W",
+            "message": "Working with ChiroRepair has been a breath of fresh air. Their team is not only professional, but also friendly and approachable. They did a great job with fixing our equipment, and it's reassuring to know that we have such a great resource on speed dial."
+        },
+        {
+            "name": "Dr. C",
+            "message": "I received my Activator V and it works great. Thank you so much."
+        },
+        {
+            "name": "Dr. B",
+            "message": "Thank you so much for all your help and excellent customer service! My Activator II feels brand new again."
+        }
+    ],
+    "products": [
+        {
+            "id": "adjustment_tools",
+            "name": "Adjustment Tools",
+            "products": {
+                "activator_1": {
+                    "name": "Activator I",
+                    "image": "activator-methods-activator-1.png",
+                    "price_id": "price_1NtKdlHdvmpfrQnfwaTUmUoq",
+                    "price": "127.50"
+                },
+                "activator_2": {
+                    "name": "Activator II",
+                    "image": "771-0014_01_o_p.png",
+                    "price_id": "price_1NtKf0HdvmpfrQnfKsTXoUDg",
+                    "price": "127.50"
+                },
+                "activator_4": {
+                    "name": "Activator IV",
+                    "image": "7710016L1.jpg",
+                    "price_id": "price_1NtKgZHdvmpfrQnfcW7AxUkW",
+                    "price": "127.50"
+                },
+                "activator_5": {
+                    "name": "Activator V",
+                    "image": "750x750_activator_v.jpg",
+                    "price_id": "price_1NtKhRHdvmpfrQnfAlYKSvEz",
+                    "price": "257.50"
+                },
+                "integrator": {
+                    "name": "Integrator",
+                    "image": "Torque-Release-Integrator.png",
+                    "price_id": "price_1NtKiLHdvmpfrQnftW1fQGFJ",
+                    "price": "127.50"
+                },
+                "the_original_cat": {
+                    "name": "Original CAT",
+                    "image": "cat-original.png",
+                    "price_id": "price_1NtKjuHdvmpfrQnfpMZDOUbv",
+                    "price": "127.50"
+                },
+                "cat_ex": {
+                    "name": "CAT EX",
+                    "image": "cat-ex.png",
+                    "price_id": "price_1NtKkRHdvmpfrQnfRTinN7SG",
+                    "price": "127.50"
+                },
+                "cat_pro_select": {
+                    "name": "CAT Pro Select",
+                    "image": "cat-pro-select.png",
+                    "price_id": "price_1NtKl0HdvmpfrQnf1SkuNPAX",
+                    "price": "127.50"
+                }
+            }
+        },
+        {
+            "id": "cold_laser",
+            "name": "Cold Laser",
+            "products": {
+                "vectra_genisys_transport_laser": {
+                    "name": "Vectra Genisys Transport Laser",
+                    "image": "API_2784_chatt_us_feb_vectra_genisys_transport_laser_2784_0.jpeg",
+                    "price_id": "",
+                    "price": ""
+                }
+            }
+        },
+        {
+            "id": "ultrasound",
+            "name": "Ultrasound",
+            "products": {
+                "intelect_transport_ultrasound": {
+                    "name": "Inelect Transport Ultrasound",
+                    "image": "API_2782_chatt_us_feb_2782K_intelect_transport_ultrasound_white_lowresjpg_1eie3rb.jpg",
+                    "price_id": "",
+                    "price": ""
+                }
+            }
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
     "adjustment_tool": {
+        "name": "Adjustment Tools",
         "splash_image": "P1020741-1.webp",
         "products": {
             "activator_1": {
@@ -36,13 +37,20 @@
             }
         }
     },
-    "cold_laser&ultrasound": {
+    "cold_laser": {
+        "name": "Cold Laser",
         "splash_image": "laser-therapy-0305-1280x500-1.jpg",
         "products": {
             "vectra_genisys_transport_laser": {
                 "name": "Vectra Genisys Transport Laser",
                 "image": "API_2784_chatt_us_feb_vectra_genisys_transport_laser_2784_0.jpeg"
-            },
+            }
+        }
+    },
+    "ultrasound": {
+        "name": "Ultrasound",
+        "splash_image": "ultrasound-in-physical-therapy-therapist-using-TJ7SG9Z-1024x682.jpg",
+        "products": {
             "intelect_transport_ultrasound": {
                 "name": "Inelect Transport Ultrasound",
                 "image": "API_2782_chatt_us_feb_2782K_intelect_transport_ultrasound_white_lowresjpg_1eie3rb.jpg"
