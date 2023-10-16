@@ -68,6 +68,12 @@
                     "price_id": "price_1NtKf0HdvmpfrQnfKsTXoUDg",
                     "price": "127.50"
                 },
+                "activator_3": {
+                    "name": "Activator III",
+                    "image": "activator3.png",
+                    "price_id": "",
+                    "price": "127.50"
+                },
                 "activator_4": {
                     "name": "Activator IV",
                     "image": "7710016L1.jpg",
@@ -103,6 +109,18 @@
                     "image": "cat-pro-select.png",
                     "price_id": "price_1NtKl0HdvmpfrQnf1SkuNPAX",
                     "price": "127.50"
+                },
+                "impulse_adjusting_instrument": {
+                    "name": "Impulse",
+                    "image": "IMPULSE_NMI_STORE-1.png",
+                    "price_id": "price_1NtKhRHdvmpfrQnfAlYKSvEz",
+                    "price": "257.50"
+                },
+                "impulse_iq": {
+                    "name": "Impulse IQ",
+                    "image": "NMI_IQ_STORE.png",
+                    "price_id": "price_1NtKhRHdvmpfrQnfAlYKSvEz",
+                    "price": "257.50"
                 }
             }
         },
